@@ -1,15 +1,13 @@
-// main.c : Diese Datei enthält die Funktion "main". Hier beginnt und endet die Ausführung des Programms.
-
 #include <stdio.h>
 #include <stdlib.h>
 
 int main()
 {
 	int input;
-	int chapter1 = 5;
-	int chapter2 = 62;
-	int chapter3 = 168;
-	int chapter4 = 239;
+	int chapter1 = 1;
+	int chapter2 = 3;
+	int chapter3 = 5;
+	int chapter4 = 7;
 
 	do {
 		int *page = NULL;
