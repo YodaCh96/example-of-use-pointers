@@ -41,10 +41,10 @@ int main()
 		}
 
 		if (page != NULL) {
-			printf("\tYou'll find chapter %d on page %d\n\n", input, *page);
+			printf("\n\tYou'll find chapter %d on page %d\n\n", input, *page);
 		}
 		else if (input != 0) {
-			printf("\tInvalid input for chapter!\n\n");
+			printf("\n\tInvalid input for chapter!\n\n");
 		}
 
 	} while (input >= 1 && input <= 4);
