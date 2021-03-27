@@ -7,7 +7,7 @@ int main()
 	int chapter1 = 1;
 	int chapter2 = 3;
 	int chapter3 = 5;
-	int chapter4 = 8;
+	int chapter4 = 7;
 
 	do
 	{
