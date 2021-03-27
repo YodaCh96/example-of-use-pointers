@@ -11,7 +11,7 @@ int main()
 
 	do
 	{
-		int *page = NULL;
+		int* page = NULL;
 
 		printf("\tTable of contents\n");
 		printf("\t********************\n\n");
@@ -26,20 +26,20 @@ int main()
 
 		switch (input)
 		{
-			case 1:
-				page = &chapter1;
-				break;
-			case 2:
-				page = &chapter2;
-				break;
-			case 3:
-				page = &chapter3;
-				break;
-			case 4:
-				page = &chapter4;
-				break;
-			default:
-				break;
+		case 1:
+			page = &chapter1;
+			break;
+		case 2:
+			page = &chapter2;
+			break;
+		case 3:
+			page = &chapter3;
+			break;
+		case 4:
+			page = &chapter4;
+			break;
+		default:
+			break;
 		}
 
 		if (page != NULL)
@@ -51,7 +51,7 @@ int main()
 			printf("\n\tInvalid input for chapter!\n\n");
 		}
 
-	}while (input >= 1 && input <= 4);
+	} while (input >= 1 && input <= 4);
 
 	return EXIT_SUCCESS;
 }
